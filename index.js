@@ -8,7 +8,7 @@ const { koaBody } = require('koa-body');
 // These variables should be configurable depending on the environment
 // you are integrating against. Your supplier id and supplier secret
 // should be stored securely, with limited access. If you are using
-// AWS we recommend use AWS Secrets Manager for this.
+// AWS we recommend using AWS Secrets Manager for this.
 const GLUEDOG_BASE_URL = "http://localhost:3000";
 const GLUEDOG_API_BASE_URL = "http://localhost:3002";
 const SUPPLIER_ID = "6751bd55485a9060535c38f1";
